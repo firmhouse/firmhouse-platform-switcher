@@ -1,7 +1,6 @@
 import React from "react";
+import ProductSwitcher from "./components/ProductSwitcher";
 
-const PlatformSwitcher = props => {
-  return <div />;
-};
+const PlatformSwitcher = props => <ProductSwitcher {...props} />;
 
 export default PlatformSwitcher;

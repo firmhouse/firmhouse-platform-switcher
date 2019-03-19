@@ -19,6 +19,12 @@ module.exports = {
             presets: ["@babel/env"]
           }
         }
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/i,
+        use: {
+          loader: "url-loader"
+        }
       }
     ]
   },
