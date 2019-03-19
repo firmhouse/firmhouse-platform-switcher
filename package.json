@@ -1,0 +1,35 @@
+{
+  "name": "firmhouse-platform-switcher",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "webpack --watch --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firmhouse/firmhouse-platform-switcher.git"
+  },
+  "author": "Firmhouse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/firmhouse/firmhouse-platform-switcher/issues"
+  },
+  "homepage": "https://github.com/firmhouse/firmhouse-platform-switcher#readme",
+  "peerDependencies": {
+    "react": "^16.8.4"
+  },
+  "dependencies": {
+    "react": "^16.8.4",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "webpack-cli": "^3.3.0"
+  }
+}
