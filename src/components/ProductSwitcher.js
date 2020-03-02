@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Menu from "./Menu";
 
-import FirmhouseLogoImage from "../images/logo-firmhouse.svg";
+import FirmhouseLogoImage from "../images/icon-firmhouse.svg";
 import ArrowDownIconImage from "../images/chevron-down.svg";
 
 const FirmhouseLogo = styled.img`
