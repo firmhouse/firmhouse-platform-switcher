@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="111px" height="35px" viewBox="0 0 111 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="115px" height="35px" viewBox="0 0 115 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
     <title>logo-airstrip</title>
     <desc>Created with Sketch.</desc>
     <g id="Admin-backend" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Assets-overview-Copy" transform="translate(-373.000000, -207.000000)">
-            <g id="logo-airstrip" transform="translate(373.000000, 207.000000)">
-                <g id="Logo" transform="translate(52.000000, 5.000000)" fill="#383A3F" font-family="RobotoSlab-Bold, Roboto Slab" font-size="16" font-weight="bold">
+        <g id="Product-switcher-icons" transform="translate(-41.000000, -63.000000)">
+            <g id="logo-airstrip" transform="translate(41.000000, 63.000000)">
+                <g id="Logo" transform="translate(56.000000, 8.000000)" fill="#383A3F" font-family="RobotoSlab-Bold, Roboto Slab" font-size="16" font-weight="bold">
                     <text id="GoMonthly">
                         <tspan x="0" y="17">Airstrip</tspan>
                     </text>
