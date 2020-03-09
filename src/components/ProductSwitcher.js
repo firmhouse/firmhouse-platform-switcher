@@ -54,7 +54,7 @@ class ProductSwitcher extends React.Component {
           <FirmhouseLogo src={FirmhouseLogoImage} alt="Logo Firmhouse icon" />
         </a>
         <ProductLogo onClick={this.showMenu}>
-          <img src={productLogo} alt="Logo" />
+          Bla
           <ArrowDownIcon src={ArrowDownIconImage} alt="Arrow down icon" />
         </ProductLogo>
         <Menu showMenu={this.state.showMenu} items={this.props.items} />
