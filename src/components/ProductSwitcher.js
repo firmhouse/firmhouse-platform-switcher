@@ -19,6 +19,11 @@ const ProductLogo = styled.div`
   display: inline-block;
 `;
 
+const ProductName = styled.div`
+  cursor: pointer;
+  display: inline-block;
+`
+
 class ProductSwitcher extends React.Component {
   constructor() {
     super();
@@ -45,6 +50,10 @@ class ProductSwitcher extends React.Component {
     });
   }
 
+  productName() {
+    return this.props.product_name ? this.props.product_name : this.props.product
+  }
+
   render() {
     const productLogo = require(`../images/logo-${this.props.product}.svg`);
 
@@ -54,7 +63,7 @@ class ProductSwitcher extends React.Component {
           <FirmhouseLogo src={FirmhouseLogoImage} alt="Logo Firmhouse icon" />
         </a>
         <ProductLogo onClick={this.showMenu}>
-          Bla
+          <ProductName>{this.productName()}</ProductName>
           <ArrowDownIcon src={ArrowDownIconImage} alt="Arrow down icon" />
         </ProductLogo>
         <Menu showMenu={this.state.showMenu} items={this.props.items} />
