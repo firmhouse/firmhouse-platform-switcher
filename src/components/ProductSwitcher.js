@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Menu from "./Menu";
 
-import FirmhouseLogoImage from "../images/logo-firmhouse.svg";
+import FirmhouseLogoImage from "../images/icon-firmhouse.svg";
 import ArrowDownIconImage from "../images/chevron-down.svg";
 
 const FirmhouseLogo = styled.img`
@@ -18,6 +18,11 @@ const ProductLogo = styled.div`
   cursor: pointer;
   display: inline-block;
 `;
+
+const ProductName = styled.div`
+  cursor: pointer;
+  display: inline-block;
+`
 
 class ProductSwitcher extends React.Component {
   constructor() {
@@ -45,6 +50,10 @@ class ProductSwitcher extends React.Component {
     });
   }
 
+  productName() {
+    return this.props.product_name ? this.props.product_name : this.props.product
+  }
+
   render() {
     const productLogo = require(`../images/logo-${this.props.product}.svg`);
 
@@ -54,7 +63,7 @@ class ProductSwitcher extends React.Component {
           <FirmhouseLogo src={FirmhouseLogoImage} alt="Logo Firmhouse icon" />
         </a>
         <ProductLogo onClick={this.showMenu}>
-          <img src={productLogo} alt="Logo" />
+          <ProductName>{this.productName()}</ProductName>
           <ArrowDownIcon src={ArrowDownIconImage} alt="Arrow down icon" />
         </ProductLogo>
         <Menu showMenu={this.state.showMenu} items={this.props.items} />
