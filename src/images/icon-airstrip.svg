@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="35px" viewBox="0 0 45 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon-airstrip</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Admin-backend" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets-overview-Copy" transform="translate(-373.000000, -207.000000)">
+            <g id="icon-airstrip" transform="translate(373.000000, 207.000000)">
+                <rect id="Rectangle-Copy-4" fill="#36B0C4" x="0" y="0" width="45" height="34.875"></rect>
+                <g id="airplane-departure-copy" transform="translate(9.000000, 4.500000)">
+                    <g id="Filled_Icons" transform="translate(0.000000, 3.375000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <g id="Group">
+                            <path d="M6.40575,3.668625 L11.3175,5.7015 L16.8165,3.30975 L10.994625,0.90675 C10.85625,0.8505 10.701,0.849375 10.56375,0.907875 L6.40575,2.63025 C6.1965,2.716875 6.05925,2.921625 6.05925,3.148875 C6.05925,3.376125 6.1965,3.582 6.40575,3.668625 Z" id="Path"></path>
+                            <path d="M26.785125,3.319875 C26.20575,1.92375 24.541875,1.20375 23.101875,1.80225 L7.966125,8.386875 L4.82625,6.816375 C4.68,6.74325 4.50675,6.737625 4.35375,6.80175 L0.41625,8.48925 C0.244125,8.5635 0.120375,8.717625 0.084375,8.899875 C0.0495,9.08325 0.108,9.27225 0.239625,9.403875 L5.302125,14.466375 C5.461875,14.626125 5.700375,14.673375 5.9085,14.59125 L13.163625,11.68875 L10.23525,19.49625 C10.15425,19.713375 10.21275,19.9575 10.386,20.111625 C10.49175,20.20725 10.625625,20.255625 10.76175,20.255625 C10.848375,20.255625 10.933875,20.2365 11.01375,20.197125 L15.51375,17.947125 C15.622875,17.892 15.71175,17.80425 15.76575,17.695125 L20.167875,8.89425 L25.263,6.99525 C26.695125,6.402375 27.381375,4.759875 26.785125,3.319875 Z" id="Path"></path>
+                        </g>
+                    </g>
+                    <g id="invisible_shape">
+                        <rect id="Rectangle" x="0" y="0" width="27" height="27"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
