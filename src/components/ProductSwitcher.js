@@ -55,12 +55,12 @@ class ProductSwitcher extends React.Component {
   }
 
   render() {
-    const productLogo = require(`../images/logo-${this.props.product}.svg`);
+    const productIcon = require(`../images/icon-${this.props.product}.svg`);
 
     return (
       <React.Fragment>
         <a href={this.props.root_url}>
-          <FirmhouseLogo src={FirmhouseLogoImage} alt="Logo Firmhouse icon" />
+          <FirmhouseLogo src={productIcon} alt="Product icon" />
         </a>
         <ProductLogo onClick={this.showMenu}>
           <ProductName>{this.productName()}</ProductName>
